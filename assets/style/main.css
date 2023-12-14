@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{   
+    background: #000;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+menu{
+    display: flex;
+    width: 100%;   
+    z-index: 100;
+    padding:10px;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+}
+
+menu img{
+    height: 70px;
+}
+
+.firstsec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;    
+    background-image: url(https://i.imgur.com/EVFEO8S.gif);
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+
+header{
+    display: flex;
+    width: 80%;
+    max-width: 1220px;
+    align-items: flex-start;    
+}
+
+.headerfont{
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.headerdesc{
+    width: 100%;
+    padding: 50px 0;
+    margin-top: 50px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.titles{
+    height: 200px;
+    display: flex;   
+    justify-content: center;
+    align-items: center;  
+    padding: 0 130px;    
+    margin: 100px 0 100px 0;
+    gap: 20px;   
+    opacity: 0.8;
+    background: radial-gradient(circle, transparent 20%, #000 20%, #000 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #000 20%, #000 80%, transparent 80%, transparent) 25px 25px, linear-gradient(#0c0e36 2px, transparent 2px) 0 -1px, linear-gradient(90deg, #0c0e36 2px, #000 2px) -1px 0;
+    background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;      
+}
+
+.titlesdesc{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    text-align: center;   
+    flex: 1;
+    transition: .2s ease;
+}
+
+.titlesdesc:hover{
+    transition: .2s ease;
+    scale: 1.1;
+}
+
+.titlesdesc h1{
+    font-size: 34px;
+    color: #ea4e8b;
+    font-family: 'Titan One', sans-serif;    
+}
+
+.titlesdesc p{
+    margin-top: 3px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #7fd7ed;
+}
